@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class evenodd {
+public class ch1_evenodd {
     public static void main(String[] args) {  
         Scanner input = new Scanner(System.in);
 

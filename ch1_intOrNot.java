@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class hasFloat {
+public class ch1_intOrNot {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter the value to  check");
-        System.out.println(input.hasNextFloat());
+        System.out.println("Enter the value to check Integer");
+        System.out.println(input.hasNextInt());
         input.close();
     }
 }

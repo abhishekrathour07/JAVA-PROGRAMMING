@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class marks {
+public class ch1_marks {
     public static void main(String[] args) {
         float a, b, c;
         Scanner input = new Scanner(System.in);

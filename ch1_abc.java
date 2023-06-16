@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class abc
+public class ch1_abc
 {
     public static void main(String[] args)
     {

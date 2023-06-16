@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class bigThree {
+public class ch1_bigThree {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

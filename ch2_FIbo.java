@@ -13,6 +13,7 @@ public class ch2_FIbo {
             t2 = t3;
             t3 = t1 + t2;
         }
+        input.close();
     }
 
 }

@@ -15,10 +15,10 @@ public class ch4_Duplicate {
       for (i = 0; i < n; i++) {
          System.out.printf("%d\t", arr[i]);
       }
-      for (i = 0; i < n; i++) {
+      for (i = 0; i < n-1; i++) {
          for (int j = i + 1; j < n; j++) {
             if (arr[i] == arr[j]) {
-               for (int k = j; k < n; k++) {
+               for (int k = j; k < n-1; k++) {
                   arr[k] = arr[k + 1];
                }
                n--;
@@ -30,6 +30,6 @@ public class ch4_Duplicate {
       for (i = 0; i < n; i++) {
          System.out.printf("%d\t", arr[i]);
       }
-
+      input.close();
    }
 }

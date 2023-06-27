@@ -1,7 +1,7 @@
-class mycylinder {
+class areacylinder {
     private int radius, height;
     // private int  a;
-    public mycylinder(int radius, int height) {
+    public areacylinder(int radius, int height) {
         this.radius = radius;
         this.height = height;
     }
@@ -21,7 +21,7 @@ class mycylinder {
 
 public class ch6_cylconstructer {
     public static void main(String[] args) {
-            mycylinder c =new mycylinder(5,4 );
+            areacylinder c =new areacylinder(5,4 );
             System.out.println(c.volume());
             System.out.println(c.surfacearea());
     }

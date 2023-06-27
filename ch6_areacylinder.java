@@ -1,4 +1,4 @@
-class cylinder {
+class Mycylinder {
     int radius, height;
 
     public void setradius(int radius) {
@@ -28,7 +28,7 @@ class cylinder {
 
 public class ch6_areacylinder {
     public static void main(String[] args) {
-        cylinder cyl = new cylinder();
+        Mycylinder cyl = new Mycylinder();
         cyl.setheight(4);
         cyl.setradius(5);
         System.out.println("Height = " + cyl.getheight());

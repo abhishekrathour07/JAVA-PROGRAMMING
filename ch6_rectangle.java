@@ -15,13 +15,13 @@ class rect{
     public int getterb(){
         return b;
     }
-    public int area(){
+    public int getinarea(){
         return l*b;
     }
 }
 public class ch6_rectangle {
     public static void main(String[] args) {
         rect c =new rect();
-        System.out.println(c.area());
+        System.out.println(c.getinarea());
     }
 }

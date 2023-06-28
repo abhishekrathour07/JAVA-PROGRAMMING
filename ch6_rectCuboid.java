@@ -1,14 +1,14 @@
 class Rect {
-   public int l, b,h;
+   public int l, b;
 
-    Rect(int l, int b,int h) {
+    Rect(int l, int b) {
         this.l = l;
         this.b = b;
-        this.h =h;
+        
         }
 
     int arearect() {
-        return l * b*h;
+        return l * b;
     }
 
 }
@@ -17,7 +17,7 @@ class CUBEOID extends Rect {
     int w;
 
     CUBEOID(int l, int b, int w) {
-        super(l, b,w);
+        super(l, b);
         this.w = w;
 
     }

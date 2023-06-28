@@ -15,7 +15,7 @@ class SmartPhone extends Phone{
         System.out.println("Turning on SmartPhone...");
     }
 }
-public class ch6_dynamic {
+public class ch7_dynamic {
     public static void main(String[] args) {
 
         Phone obj = new SmartPhone(); // Yes it is allowed

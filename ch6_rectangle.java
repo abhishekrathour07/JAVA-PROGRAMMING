@@ -1,10 +1,10 @@
-class rect{
+class rect1{
     private int l,b;
-    public rect(){
+    public rect1(){
         this.l =6;
         this.b =5;
     }
-    public rect(int l,int b){
+    public rect1(int l,int b){
         this.l =l;
         this.b =b;
     }
@@ -21,7 +21,7 @@ class rect{
 }
 public class ch6_rectangle {
     public static void main(String[] args) {
-        rect c =new rect();
+        rect1 c =new rect1(7,8);
         System.out.println(c.getinarea());
     }
 }

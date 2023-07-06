@@ -11,7 +11,7 @@ interface camera {
 class inter implements camera {
 
     @Override
-    public void takingpic() {
+   public void takingpic() {
         System.out.println("I am taking picture ");
     }
 

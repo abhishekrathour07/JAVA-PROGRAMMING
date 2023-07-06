@@ -1,5 +1,5 @@
 interface e1 {
-       int a =10;    
+      int a =10;    
     void display();
     void display2();
 
@@ -49,7 +49,7 @@ class B extends A implements e3 {
 public class ch7_interface1 {
     public static void main(String[] args) {
         B b1 = new B();
-        System.out.println(b1.a);
+        System.out.println(B.a);
         b1.display();
         b1.display3();
     }

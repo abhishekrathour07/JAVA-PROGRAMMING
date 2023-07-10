@@ -16,5 +16,5 @@ public class ch9_Labprogram4 {
         } else{
             System.out.println("Employee is eligible for 30% hike");
         }
-}
+    }
 }

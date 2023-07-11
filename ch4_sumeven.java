@@ -15,6 +15,7 @@ public class ch4_sumeven {
             }
         }
         System.out.println("Sum of n even numbers are " +sum);
+        sc.close();
     }
 
 

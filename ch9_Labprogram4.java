@@ -9,7 +9,7 @@ class MyException extends Exception {
 public class ch9_Labprogram4 {
     public static void main(String args[]) throws MyException {
         System.out.println("Enter the employee salary:");
-        try (Scanner input = new Scanner(System.in)) {
+     Scanner input = new Scanner(System.in) ;
             int pay = input.nextInt();
             if (pay < 10000 || pay > 50000) {
                 throw new MyException("salary not in a valid range");
@@ -18,4 +18,3 @@ public class ch9_Labprogram4 {
             }
         }
     }
-}

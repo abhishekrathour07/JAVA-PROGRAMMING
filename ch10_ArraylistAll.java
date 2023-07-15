@@ -65,6 +65,7 @@ public class ch10_ArraylistAll {
                   }
                 }
              }
+             sc.close();
         }
     }
  }

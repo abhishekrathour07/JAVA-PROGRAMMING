@@ -11,6 +11,7 @@ public class ch9_Labprogram4 {
         System.out.println("Enter the employee salary:");
      Scanner input = new Scanner(System.in) ;
             int pay = input.nextInt();
+            input.close();
             if (pay < 10000 || pay > 50000) {
                 throw new MyException("salary not in a valid range");
             } else{

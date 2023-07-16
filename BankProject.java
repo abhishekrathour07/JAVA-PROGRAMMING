@@ -38,7 +38,8 @@ class BankAccount {
 
     void menu() {
         char option;
-        Scanner sc = new Scanner(System.in);
+                Scanner sc = new Scanner(System.in);
+
         System.out.println("Welcome to Reserve Bank Of India");
         System.out.println("Welcome " + customerName);
         System.out.println("Your ID:" + customerId);
@@ -77,6 +78,7 @@ class BankAccount {
                     double amtW = sc.nextDouble();
                     withdraw(amtW);
                     System.out.println("\n");
+                    sc.close();
                     break;
                 case 4:
                     System.out.println("......................");
@@ -93,6 +95,7 @@ class BankAccount {
                 default:
                     System.out.println("Choose a correct option to proceed");
                     break;
+                    
             }
 
         }
@@ -106,6 +109,7 @@ public class BankProject {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int i;
+        sc.close();
         ArrayList<Integer> customerId = new ArrayList<>();
         ArrayList<String> name = new ArrayList<>();
         System.out.println("Enter the number of Customer in Your bank");

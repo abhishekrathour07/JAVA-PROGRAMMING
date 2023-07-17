@@ -29,8 +29,8 @@ class ch9_Labprogram9 {
             emp.display();
         }
 
-        for (int i = 0; i < employees.length; i++) {
-            for (int j = 0; j < employees.length; j++) {
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
                 if (employees[i].appDate.isAfter(employees[j].appDate)) {
                     Employee3 temp = employees[i];
                     employees[i] = employees[j];

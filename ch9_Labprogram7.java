@@ -24,7 +24,7 @@ student1 s2=new student1(102,"rahul");
 s1.display();
 s2.display();
 System.out.println("static variable chaged by one of the object");
-s1.collegename="BMS";
+student1.collegename="BMS";
 s1.display();
 s2.display();
 }

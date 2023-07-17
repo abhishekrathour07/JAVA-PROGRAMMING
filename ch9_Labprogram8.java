@@ -40,7 +40,7 @@ public class ch9_Labprogram8 {
         int n = sc.nextInt();
         student2 s[] = new student2[n];
         int i;
-        sc.close();
+   
         for (i = 0; i < n; i++) {
             s[i] = new student2();
         }

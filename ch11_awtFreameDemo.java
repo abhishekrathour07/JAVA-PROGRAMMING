@@ -12,6 +12,6 @@ public class ch11_awtFreameDemo extends Frame {
     }
 
     public static void main(String[] args) {
-        ch11_awtFreameDemo d = new ch11_awtFreameDemo();
+        new ch11_awtFreameDemo();
     }
 }

@@ -27,6 +27,6 @@ public class ch11_awtPanel extends Frame {
     }
 
     public static void main(String[] args) {
-        ch11_awtPanel p = new ch11_awtPanel();
+      new ch11_awtPanel();
     }
 }

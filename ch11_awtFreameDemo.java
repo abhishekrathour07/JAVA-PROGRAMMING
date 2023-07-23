@@ -6,7 +6,7 @@ public class ch11_awtFreameDemo extends Frame {
         add(b);
        
         setSize(100, 150);
-        // setBackground(getForeground());
+    
         setTitle("I am frame");
         setVisible(true);
     }

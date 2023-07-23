@@ -3,7 +3,7 @@ import java.awt.*;
 public class ch11_awtFrame {
     ch11_awtFrame() {
         Frame f = new Frame();
-        f.setTitle("This is java  class");
+        f.setTitle("Webpage");
         Label l = new Label("THIS IS AWT GUI");
         f.add(l);
         f.setSize(200, 300);
@@ -11,7 +11,7 @@ public class ch11_awtFrame {
     }
 
     public static void main(String[] args) {
-        ch11_awtFrame f = new ch11_awtFrame();
+        new ch11_awtFrame();
 
     }
 }

@@ -1,31 +1,30 @@
-import javax.swing.*;
 import java.awt.*;
+import java.awt.event.*;
 
 public class ch11_GridLayout {
+
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> createAndShowGUI());
-    }
+        Frame frame = new Frame("Grid Layout Example");
+        frame.setSize(300, 200);
+        frame.setLayout(new GridLayout(2, 2));
 
-    private static void createAndShowGUI() {
-        JFrame frame = new JFrame("Grid Layout Example");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        Button button1 = new Button("Button 1");
+        Button button2 = new Button("Button 2");
+        Button button3 = new Button("Button 3");
+        Button button4 = new Button("Button 4");
 
-        // Create a JPanel with GridLayout
-        JPanel gridPanel = new JPanel(new GridLayout(2, 3, 10, 10));
-        // Parameters: (rows, columns, horizontalGap, verticalGap)
-
-        // Add buttons to the gridPanel
-        gridPanel.add(new JButton("Button 1"));
-        gridPanel.add(new JButton("Button 2"));
-        gridPanel.add(new JButton("Button 3"));
-        gridPanel.add(new JButton("Button 4"));
-        gridPanel.add(new JButton("Button 5"));
-        gridPanel.add(new JButton("Button 6"));
-
-        // Add the gridPanel to the frame's content pane
-        frame.getContentPane().add(gridPanel);
-
-        frame.pack();
+        frame.add(button1);
+        frame.add(button2);
+        frame.add(button3);
+        frame.add(button4);
         frame.setVisible(true);
+
+        // Handle window closing event
+        frame.addWindowListener(new WindowAdapter() {
+            public void windowClosing(WindowEvent e) {
+                    System.exit(0);
+                }
+            });
+
     }
 }

@@ -6,5 +6,4 @@ public class AppletDemo {
         g.drawString("This is applet",10,20);
     }
 }
-/*  <applet appletdemo.class ,width = "200" , height = "100">
-</applet> */ 
+

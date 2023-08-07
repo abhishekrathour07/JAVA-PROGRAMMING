@@ -4,7 +4,7 @@ public class ch11_BorderLayout {
     public static void main(String[] args) {
         Frame frame = new Frame("BorderLayout Example");
         
-        Label button1 = new Label("North");
+      Button button1 = new Button("North");
         Button button2 = new Button("South");
         Button button3 = new Button("East");
         Button button4 = new Button("West");

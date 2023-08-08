@@ -14,10 +14,13 @@ public class ch2_prime {
                     break;
                 }
             }
-            if (prime == 0) {
-                System.out.println("Yes , it is a prime number");
+            if (num > 100 && num <= 1000) {
+                if (prime == 0) {
+                    System.out.println("Yes , it is a prime number");
+                } 
             }
+           
             input.close();
-        }
     }
+}
 }

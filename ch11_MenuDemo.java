@@ -19,6 +19,7 @@ public class ch11_MenuDemo {
         MenuItem b3 = new MenuItem("Paste");
         MenuItem c1 = new MenuItem("Show");
         MenuItem c2 = new MenuItem("Find");
+       
         file.add(a1);
         file.add(a2);
         file.add(a3);

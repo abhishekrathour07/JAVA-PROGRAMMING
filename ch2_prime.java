@@ -16,7 +16,7 @@ public class ch2_prime {
             }
             if (num > 100 && num <= 1000) {
                 if (prime == 0) {
-                    System.out.println("Yes , it is a prime number");
+                    System.out.println(i);
                 } 
             }
            

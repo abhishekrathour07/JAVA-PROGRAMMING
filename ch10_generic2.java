@@ -13,7 +13,7 @@ class test1<t1, t2> {
     }
 }
 
-public class ch10_generic2 {
+public class ch10_generic2 { 
     public static void main(String[] args) {
         test1<Integer,String> obj =new test1<>(01,"Abhishek");
         obj.getall();

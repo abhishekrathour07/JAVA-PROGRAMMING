@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ch1_bigThree {
+public class bigThree {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -21,6 +21,7 @@ public class ch1_bigThree {
                 System.out.println("C is Largest");
             }
         }
+        System.out.println("Equal value occurs");
 
         input.close();
     }

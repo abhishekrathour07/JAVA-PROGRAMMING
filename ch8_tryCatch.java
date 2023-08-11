@@ -1,5 +1,5 @@
 public class ch8_tryCatch {
-    public static void main(String[] args) {
+    public static void main(String[] abhi) {
         int a =10; 
         int b =4;
         try {

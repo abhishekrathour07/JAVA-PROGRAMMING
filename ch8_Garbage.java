@@ -1,6 +1,4 @@
-class garbage {
 
-}
 public class ch8_Garbage {
     public static void main(String[] args) {
         garbage g = new garbage();

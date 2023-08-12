@@ -3,7 +3,7 @@ class Myrunner1 implements Runnable {
     @Override
     public void run() {
         int i = 0;
-        while (i < 400) {
+        while (i < 100) {
             System.out.println("This is Bca  department");
             i++;
         }
@@ -16,7 +16,7 @@ class Myrunner2 implements Runnable {
     @Override
     public void run() {
         int i = 0;
-        while (i < 400) {
+        while (i < 100) {
             System.out.println("This is Polytecnic department");
             i++;
         }

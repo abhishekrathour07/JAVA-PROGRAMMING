@@ -15,10 +15,10 @@ class cc extends bb{
 }
 class dd extends cc{
     void d(){
-        System.out.println("D");
+        System.out.println("D"); //--> then what is difference between both. multilevel and multiple......
     }
 }
-public class practice2{
+public class ch12_MultiLevel{
     public static void main(String[] args) {
         dd obj = new dd();
         obj.A();

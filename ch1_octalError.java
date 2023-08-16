@@ -1,4 +1,4 @@
-public class practice2 {
+public class ch1_octalError {
     public static void main(String[] args) {
 
         // int x = 058;--> if we place zero if front of it will treat like a octal and

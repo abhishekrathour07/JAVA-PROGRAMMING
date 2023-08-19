@@ -30,7 +30,7 @@ public class ch10_ArraylistAll {
                 }
                 case 2:
                 {
-                    System.out.println("enter the element you want to remove");
+                    System.out.println("Enter the element you want to remove");
                     int e=sc.nextInt();
                     if(integers.contains(e))
                     {

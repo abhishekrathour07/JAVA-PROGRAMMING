@@ -7,8 +7,13 @@ public class ch3_stringuprcase {
         String st = input.nextLine();
         System.out.println(st);
         String lstr = st.toLowerCase();
+        String ustr = st.toUpperCase();
+
         System.out.println("String in lowercase ");
         System.out.println(lstr);
+        
+        System.out.println(ustr);
+
         input.close();
     }
 

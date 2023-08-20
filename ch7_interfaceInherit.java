@@ -28,9 +28,9 @@ class Rand {
         String[] messages = {
                 "hey",
                 "How are you?",
-                " dewu where r u",
+                " where r u",
                 ".Goodbye!",
-                "Gand mra!"
+                "Ram Ram bhiayo !"
         };
 
         Random random = new Random();

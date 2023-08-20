@@ -5,6 +5,7 @@ class Employee3 {
     LocalDate appDate;
 
     public Employee3(String name, LocalDate appDate) {
+
         this.name = name;
         this.appDate = appDate;
     }
@@ -38,7 +39,7 @@ class ch9_Labprogram9 {
                 }
             }
         }
- 
+
         System.out.println("\nList of employees sorted by seniority:");
         for (Employee3 emp : employees) {
             emp.display();

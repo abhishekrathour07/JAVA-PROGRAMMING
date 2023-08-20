@@ -6,16 +6,20 @@
 class bb extends aa{
     void b(){
         System.out.println("B");
+     
     }
 }
 class cc extends bb{
+    void b(){
+        System.out.println("This is b with c");
+    }
     void c(){
         System.out.println("C");
     }
 }
 class dd extends cc{
     void d(){
-        System.out.println("D"); //--> then what is difference between both. multilevel and multiple......
+        System.out.println("D"); 
     }
 }
 public class ch12_MultiLevel{

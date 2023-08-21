@@ -4,7 +4,9 @@ interface a1{
 }
 interface a2{
     void display1();
-    void display2();
+   default void display2(){
+    System.out.println(" ABHISHEK ");
+   }
 }
 class abhi implements a1,a2{
 

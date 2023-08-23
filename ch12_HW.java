@@ -12,5 +12,6 @@ public class ch12_HW {
         } else {
             System.out.println(a + " is not multiple of " + b);
         }
+        sc.close();
     }
 }

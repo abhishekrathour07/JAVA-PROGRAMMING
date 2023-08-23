@@ -1,10 +1,10 @@
-class Animal {
+class Animal3 {int i;
     void eat() {
         System.out.println("eating...");
     }
 }
 
-class Dog extends Animal {
+class Dog3 extends Animal3 {
     void bark() {
         System.out.println("barking...");
     }
@@ -12,7 +12,7 @@ class Dog extends Animal {
 
 class ch13_SingleIn {
     public static void main(String args[]) {
-        Dog d = new Dog();
+        Dog3 d = new Dog3();
         d.bark();
         d.eat();
     }

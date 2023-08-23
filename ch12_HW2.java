@@ -40,6 +40,7 @@ public class ch12_HW2 {
 
             }
         }
+        sc.close();
     }
 
 }

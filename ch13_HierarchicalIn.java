@@ -1,16 +1,16 @@
-class Animal {
+class Animal1 {
     void eat() {
         System.out.println("eating...");
     }
 }
 
-class Dog extends Animal {
+class Dog1 extends Animal1 {
     void bark() {
         System.out.println("barking...");
     }
 }
 
-class Cat extends Animal {
+class Cat1 extends Animal1 {
     void meow() {
         System.out.println("meowing...");
     }
@@ -18,7 +18,7 @@ class Cat extends Animal {
 
 class ch13_HierarchicalIn {
     public static void main(String args[]) {
-        Cat c = new Cat();
+        Cat1 c = new Cat1();
         c.meow();
         c.eat();
     }

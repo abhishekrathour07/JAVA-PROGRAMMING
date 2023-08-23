@@ -2,10 +2,10 @@
 class ppp {
 	
 	int a = 10;
-	static int b = 20;
+    int b = 20;
 }
 
-class thissuper extends ppp {
+class ch12_thissuper extends ppp {
 	void rr()
 	{
 		System.out.println(this.a);
@@ -16,6 +16,6 @@ class thissuper extends ppp {
 	public static void main(String[] args)
 	{
 		
-		new thissuper().rr();
+		new ch12_thissuper().rr();
 	}
 }

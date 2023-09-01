@@ -1,4 +1,6 @@
 
+// Abstraction Example 
+
 abstract class Sum {
     public abstract int sumTwo(int a, int b);
 
@@ -26,7 +28,7 @@ class demo extends Sum {
 
 public class ch7_abstractClass {
     public static void main(String[] args) {
-        demo d =new demo();
+        demo d = new demo();
         System.out.println(d.sumTwo(2, 66));
 
     }

@@ -1,22 +1,24 @@
+// Encapsulation program
+
 class MyEmployee {
     private int id;
     private String name;
     int sellery;
 
-    public int getid() {
-        return id;
-    }
-
     public void setid(int i) {
         this.id = i;
     }
 
-    public String getname() {
-        return name;
+    public int getid() {
+        return id;
     }
 
     public void setname(String n) {
         this.name = n;
+    }
+
+    public String getname() {
+        return name;
     }
 
     public void setsellary(int sellery) {
@@ -36,7 +38,7 @@ public class ch6_gettersetter {
         abhi.setid(101);
         abhi.setname("Abhishek");
         abhi.setsellary(123);
-        System.out.println("The Salery of employee is : ");
+        System.out.println("The Salary of employee is : ");
         System.out.println(abhi.getid());
         System.out.println(abhi.getname());
         System.out.println(abhi.getsellery());

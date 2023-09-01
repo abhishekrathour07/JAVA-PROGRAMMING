@@ -1,3 +1,4 @@
+// Inheritance example
 class base {
     public int a = 10;
 

@@ -3,15 +3,12 @@ interface camera {
 
     void msgwhiletaking();
 
-    default void def() {
-        System.out.println("Making default method in interface");
-    }
 }
 
 class inter implements camera {
 
     @Override
-   public void takingpic() {
+    public void takingpic() {
         System.out.println("I am taking picture ");
     }
 
@@ -28,8 +25,7 @@ public class ch7_interface {
         inter s = new inter();
         s.takingpic();
         s.msgwhiletaking();
-        s.def();
-
+       
     }
 
 }

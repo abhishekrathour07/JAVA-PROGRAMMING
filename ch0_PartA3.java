@@ -1,5 +1,5 @@
 
-public class ch9_Labprogram3 {
+public class ch0_PartA3 {
 public static void main(String[] args)
 {
 int a=5;

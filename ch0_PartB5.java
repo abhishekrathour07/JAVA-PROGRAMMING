@@ -1,6 +1,6 @@
 import java.awt.*;
 import java.applet.*;
-public class ch9_Lab15 extends Applet
+public class ch0_PartB5 extends Applet
 {
 public void paint(Graphics g)
 {
@@ -12,6 +12,7 @@ for(column=1;column<5;column++)
 {
 g.drawRect(x,y,40,40);
 x=x+20;
+
 }
 y=y+20;
 }

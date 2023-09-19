@@ -33,7 +33,7 @@ class student2 {
     }
 }
 
-public class ch9_Labprogram8 {
+public class ch0_PartA8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the no. of student");

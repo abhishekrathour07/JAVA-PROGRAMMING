@@ -14,7 +14,7 @@ System.out.println(collegename+" "+rollno+" "+name);
 }
 
 }
-public class ch9_Labprogram7
+public class ch0_PartA7
 {
 public static void main(String args[])
 {

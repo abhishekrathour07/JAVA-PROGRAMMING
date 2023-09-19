@@ -1,7 +1,7 @@
 import java.awt.*;
 
-public class ch9_Lab16 {
-    ch9_Lab16() {
+public class ch0_PartB8 {
+    ch0_PartB8() {
         Frame fr = new Frame("Menu Demo");
         MenuBar mb = new MenuBar();
         Menu fileMenu = new Menu("New");
@@ -32,6 +32,6 @@ public class ch9_Lab16 {
     }
 
     public static void main(String agrs[]) {
-        new ch9_Lab16();
+        new ch0_PartB8();
     }
 }

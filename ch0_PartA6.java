@@ -25,10 +25,10 @@ class muldiv extends addsub {
     }
 
     int div() {
-        return n1 / n2;
+        return n1 / n2; 
     }
 }
-public class ch9_Labprogram6 {
+public class ch0_PartA6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the first number ");

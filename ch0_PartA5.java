@@ -1,4 +1,4 @@
-public class ch9_Labprogram5 {
+public class ch0_PartA5 {
     int add() {
         return (10 + 10);
     }
@@ -12,7 +12,7 @@ public class ch9_Labprogram5 {
     }
 
     public static void main(String args[]) {
-        ch9_Labprogram5 a = new ch9_Labprogram5();
+        ch0_PartA5 a = new ch0_PartA5();
         System.out.println("Using default values sum is:" + a.add());
         System.out.println("Using integer values sum is:" + a.add(30, 20));
         System.out.println("Using float values sum is:" + a.add(20.3f, 29.4f));

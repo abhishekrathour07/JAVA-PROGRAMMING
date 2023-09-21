@@ -4,12 +4,15 @@ public class ch0_PartB8 {
     ch0_PartB8() {
         Frame fr = new Frame("Menu Demo");
         MenuBar mb = new MenuBar();
+
         Menu fileMenu = new Menu("New");
         Menu editMenu = new Menu("Edit");
         Menu viewMenu = new Menu("View");
+
         mb.add(fileMenu);
         mb.add(editMenu);
         mb.add(viewMenu);
+        
         MenuItem a1 = new MenuItem("New");
         MenuItem a2 = new MenuItem("Open");
         MenuItem a3 = new MenuItem("Save");

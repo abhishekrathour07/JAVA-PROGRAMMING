@@ -7,11 +7,11 @@ public class ch0_PartB4 extends Canvas {
         g.drawRoundRect(150, 150, 100, 50, 15, 15);
         g.fillRoundRect(150, 150, 100, 50, 15, 15);
         g.drawOval(250, 275, 100, 50);
-        g.fillOval(250, 275, 100, 50);
+       g.fillOval(250, 275, 100, 50);
         g.drawArc(320, 350, 100, 50, 25, 75);
-        g.fillArc(320, 350, 100, 50, 25, 75);
-        setBackground(Color.blue);
-        setForeground(Color.MAGENTA);
+         g.fillArc(320, 350, 100, 50, 25, 75);
+        setBackground(Color.orange);
+        setForeground(Color.RED);
 
     }
 
